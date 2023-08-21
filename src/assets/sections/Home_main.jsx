@@ -11,6 +11,7 @@ import Anchor from '../components/Anchor'
 import Span from '../components/Span'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar, faUser, faReceipt } from '@fortawesome/free-solid-svg-icons'
+import P from '../components/P'
 
 function Home_main() {
     return (
@@ -303,6 +304,16 @@ function Home_main() {
                     </Div>
                 </Div>
 
+            </Section>
+
+            {/* Offer Running section */}
+            <Section Class="grid grid-cols-2">
+                <Div Class="bg-[url('./images/offer01.jpg')] bg-no-repeat bg-cover bg-center" />
+                <Div Class="bg-[url('./images/offer02.jpg')] bg-no-repeat bg-cover bg-center py-28 pl-8">
+                    <H2 Class="font-bold text-4xl text-white mb-4" Text="20% Offer Running - Join Today" />
+                    <P Class="text-white mb-4 max-w-lg" Text="We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of your moment, so blinded by desire those who fail in their duty through weakness. These cases are perfectly simple and easy every pleasure is to be welcomed and every pain avoided." />
+                    <Button Class="bg-orange-500 text-white py-2 px-4 hover:bg-slate-900  transition-all rounded-lg font-medium" Text="FIND COURSES" />
+                </Div>
             </Section>
         </>
     )
