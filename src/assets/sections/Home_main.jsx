@@ -13,7 +13,7 @@ function Home_main() {
                 <H3 Class="font-medium text-center text-orange-500 mb-3" Text="TOP CATEGORIES" />
                 <H2 Class="font-bold text-4xl text-center text-slate-900 mb-10" Text="Popular Online Categories" />
                 <Div Class="grid grid-cols-3 gap-5">
-                    <Div Class="relative overflow-hidden h-96 pb-6">
+                    <Div Class="relative overflow-hidden h-96 pb-6 transition ease-in-out delay-150 duration-300  hover:-translate-y-2 hover:transition-all">
                         <Image Class="absolute inset-0 w-full h-full object-cover" Source="./images/course01.jpg" />
                         <Div Class="absolute inset-0 bg-black bg-opacity-50"/>
                         <Div Class="flex gap-3 items-end text-white relative h-full w-3/4 mx-auto">
@@ -79,7 +79,6 @@ function Home_main() {
                             </Div>
                         </Div>
                     </Div>
-                
                 </Div>
                 <Div Class="text-center mt-10">
                 <Button Class="bg-orange-600 text-white py-2 px-4 hover:bg-slate-900  transition-all rounded-lg font-medium" Text="VIEW ALL CATEGORIES" />
