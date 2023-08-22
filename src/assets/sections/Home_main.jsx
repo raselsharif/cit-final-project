@@ -10,7 +10,7 @@ import Button from '../components/Button'
 import Anchor from '../components/Anchor'
 import Span from '../components/Span'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar, faUser, faReceipt } from '@fortawesome/free-solid-svg-icons'
+import { faStar, faUser, faReceipt, faCalendar, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import P from '../components/P'
 import Faq from "react-faq-component";
 
@@ -397,7 +397,125 @@ function Home_main() {
                 </Div>
 
                 {/* slide buttons  */}
-                
+
+            </Section>
+
+            {/* NEWS UPDATE Section  */}
+            <Section Class="container mx-auto my-24">
+                <H3 Class="font-medium text-center text-orange-500 mb-3" Text="NEWS UPDATE" />
+                <H2 Class="font-bold text-4xl text-center text-slate-900 mb-16" Text="Latest News & events" />
+
+                {/* news cards  */}
+                <Div Class="grid grid-cols-3 gap-6">
+                    <Div Class="bg-white shadow-lg shadow-gray-300">
+                        <Div Class="overflow-hidden">
+                            <Image Source="./images/news01.jpg" Alt="card image" Class="w-full" />
+                        </Div>
+                        <Div Class="px-8 mt-8">
+                            <Div Class="flex justify-between pt-4">
+                                <Div Class="flex gap-3 items-center">
+                                    <FontAwesomeIcon icon={faUser} />
+                                    <Span Text="Admin" />
+                                </Div>
+                                <Div Class="flex gap-3 items-center">
+                                    <FontAwesomeIcon icon={faCalendar} />
+                                    <Span Text="Aug 22, 2023" />
+                                </Div>
+                            </Div>
+                            <Anchor Link="#">
+                                <H2 Class="my-3 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all" Text="High school program starting soon 2021" />
+                            </Anchor>
+                            <P Text="the acquisition of knowledge, skills, values befs, and habits. Educational methods include teach ing, training, storytelling" />
+                            <Div Class="flex justify-between pt-5 pb-8 border-t-2 mt-5">
+                                <Div Class="flex gap-3 items-center">
+                                    <Anchor Class="cursor-pointer ">
+                                        <FontAwesomeIcon icon={faReceipt} />
+                                        <Span Text="Collage" Class="ml-2 hover:text-orange-500" />
+                                    </Anchor>
+                                </Div>
+                                <Div Class="flex gap-3 items-center">
+
+                                    <Anchor Class="cursor-pointer hover:text-orange-500">
+                                        Read More
+                                        <FontAwesomeIcon icon={faChevronRight} />
+                                    </Anchor>
+                                </Div>
+                            </Div>
+                        </Div>
+                    </Div>
+                    <Div Class="bg-white shadow-lg shadow-gray-300">
+                        <Div Class="overflow-hidden">
+                            <Image Source="./images/news01.jpg" Alt="card image" Class="w-full" />
+                        </Div>
+                        <Div Class="px-8 mt-8">
+                            <Div Class="flex justify-between pt-4">
+                                <Div Class="flex gap-3 items-center">
+                                    <FontAwesomeIcon icon={faUser} />
+                                    <Span Text="Admin" />
+                                </Div>
+                                <Div Class="flex gap-3 items-center">
+                                    <FontAwesomeIcon icon={faCalendar} />
+                                    <Span Text="Aug 22, 2023" />
+                                </Div>
+                            </Div>
+                            <Anchor Link="#">
+                                <H2 Class="my-3 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all" Text="High school program starting soon 2021" />
+                            </Anchor>
+                            <P Text="the acquisition of knowledge, skills, values befs, and habits. Educational methods include teach ing, training, storytelling" />
+                            <Div Class="flex justify-between pt-5 pb-8 border-t-2 mt-5">
+                                <Div Class="flex gap-3 items-center">
+                                    <Anchor Class="cursor-pointer ">
+                                        <FontAwesomeIcon icon={faReceipt} />
+                                        <Span Text="Collage" Class="ml-2 hover:text-orange-500" />
+                                    </Anchor>
+                                </Div>
+                                <Div Class="flex gap-3 items-center">
+
+                                    <Anchor Class="cursor-pointer hover:text-orange-500">
+                                        Read More
+                                        <FontAwesomeIcon icon={faChevronRight} />
+                                    </Anchor>
+                                </Div>
+                            </Div>
+                        </Div>
+                    </Div>
+                    <Div Class="bg-white shadow-lg shadow-gray-300">
+                        <Div Class="overflow-hidden">
+                            <Image Source="./images/news01.jpg" Alt="card image" Class="w-full" />
+                        </Div>
+                        <Div Class="px-8 mt-8">
+                            <Div Class="flex justify-between pt-4">
+                                <Div Class="flex gap-3 items-center">
+                                    <FontAwesomeIcon icon={faUser} />
+                                    <Span Text="Admin" />
+                                </Div>
+                                <Div Class="flex gap-3 items-center">
+                                    <FontAwesomeIcon icon={faCalendar} />
+                                    <Span Text="Aug 22, 2023" />
+                                </Div>
+                            </Div>
+                            <Anchor Link="#">
+                                <H2 Class="my-3 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all" Text="High school program starting soon 2021" />
+                            </Anchor>
+                            <P Text="the acquisition of knowledge, skills, values befs, and habits. Educational methods include teach ing, training, storytelling" />
+                            <Div Class="flex justify-between pt-5 pb-8 border-t-2 mt-5">
+                                <Div Class="flex gap-3 items-center">
+                                    <Anchor Class="cursor-pointer ">
+                                        <FontAwesomeIcon icon={faReceipt} />
+                                        <Span Text="Collage" Class="ml-2 hover:text-orange-500" />
+                                    </Anchor>
+                                </Div>
+                                <Div Class="flex gap-3 items-center">
+
+                                    <Anchor Class="cursor-pointer hover:text-orange-500">
+                                        Read More
+                                        <FontAwesomeIcon icon={faChevronRight} />
+                                    </Anchor>
+                                </Div>
+                            </Div>
+                        </Div>
+                    </Div>
+                </Div>
             </Section>
         </>
     )
