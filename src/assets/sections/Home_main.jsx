@@ -18,10 +18,7 @@ const data = {
     rows: [
         {
             title: "Lorem ipsum dolor sit amet,",
-            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-              ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-              In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-              Fusce sed commodo purus, at tempus turpis.`,
+            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,`,
         },
         {
             title: "Nunc maximus, magna at ultricies elementum",
@@ -30,10 +27,7 @@ const data = {
         },
         {
             title: "Curabitur laoreet, mauris vel blandit fringilla",
-            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem. `,
         },
         {
             title: "What is the package version",
@@ -359,7 +353,7 @@ function Home_main() {
 
             {/* FAQ Section  */}
             <Section Class="grid grid-cols-2 container mx-auto my-24">
-                <Div Class="px-10 pb-10 bg-gray-100">
+                <Div Class="px-10 pb-20 pt-10 bg-gray-100">
                     <H2 Class="text-3xl text-slate-900 font-medium py-10" Text="Frequently Asked Questions" />
                     <Div>
                         <Faq
@@ -369,9 +363,41 @@ function Home_main() {
                         />
                     </Div>
                 </Div>
-                <Div Class="relative">
-                        <Image Source="./images/faq.jpg" Class="absolute right-0 top-0 h-[450px]" />
+                <Div Class="bg-[url('./images/faq.jpg')] bg-no-repeat bg-center bg-cover">
+
                 </Div>
+            </Section>
+
+            {/* TESTIMONIAL Section  */}
+
+            <Section Class="bg-[url('./images/testimonial.jpg')] bg-no-repeat bg-cover bg-center pt-20 pb-56 ">
+                <H3 Class="font-medium text-center text-orange-500 mb-3" Text="TOP CATEGORIES" />
+                <H2 Class="font-bold text-4xl text-center text-white mb-10" Text="Popular Online Categories" />
+
+                {/* testimonial cards  */}
+                <Div Class="container mx-auto text-white grid grid-cols-2 gap-5">
+                    <Div Class="bg-slate-900 bg-opacity-50 text-center px-10 pt-10 pb-28 relative">
+                        <Image Class="mx-auto" Source="./images/quote.png" />
+                        <H3 Class="text-3xl leading-10 font-medium italic mt-10" Text="Professional, responsive, and able to keep up with ever-changing demand and tight deadlines: That’s how I would describe Jeramy and his team at The Lorem Ipsum Company. When it comes to content marketing, you’ll definitely get the 5-star treatment from the Lorem Ipsum Company." />
+                        <Div Class="absolute -bottom-28 left-1/2 -translate-x-1/2">
+                            <Image Class="mx-auto mb-4" Source="./images/testi_pro01.png" />
+                            <Anchor Class="cursor-pointer text-3xl font-medium" Link="#" text="Alex Fenando" />
+                            <P Class="mt-4" Text="English Teacher" />
+                        </Div>
+                    </Div>
+                    <Div Class="bg-slate-900 bg-opacity-50 text-center px-10 pt-10 pb-28 relative">
+                        <Image Class="mx-auto" Source="./images/quote.png" />
+                        <H3 Class="text-3xl leading-10 font-medium italic mt-10" Text="Professional, responsive, and able to keep up with ever-changing demand and tight deadlines: That’s how I would describe Jeramy and his team at The Lorem Ipsum Company. When it comes to content marketing, you’ll definitely get the 5-star treatment from the Lorem Ipsum Company." />
+                        <Div Class="absolute -bottom-28 left-1/2 -translate-x-1/2">
+                            <Image Class="mx-auto mb-4" Source="./images/testi_pro01.png" />
+                            <Anchor Class="cursor-pointer text-3xl font-medium" Link="#" text="Alex Fenando" />
+                            <P Class="mt-4" Text="English Teacher" />
+                        </Div>
+                    </Div>
+                </Div>
+
+                {/* slide buttons  */}
+                
             </Section>
         </>
     )
