@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Section from '../components/Section'
 import Div from '../components/Div'
 import H2 from '../components/H2'
@@ -12,7 +12,48 @@ import Span from '../components/Span'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar, faUser, faReceipt } from '@fortawesome/free-solid-svg-icons'
 import P from '../components/P'
+import Faq from "react-faq-component";
 
+const data = {
+    rows: [
+        {
+            title: "Lorem ipsum dolor sit amet,",
+            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
+              ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
+              In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
+              Fusce sed commodo purus, at tempus turpis.`,
+        },
+        {
+            title: "Nunc maximus, magna at ultricies elementum",
+            content:
+                "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
+        },
+        {
+            title: "Curabitur laoreet, mauris vel blandit fringilla",
+            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
+            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
+            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
+            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+        },
+        {
+            title: "What is the package version",
+            content: <p>current version is 1.2.1</p>,
+        },
+    ],
+};
+
+const styles = {
+    bgColor: 'white',
+    rowTitleColor: "black",
+    rowContentColor: 'grey',
+    arrowColor: "orange",
+};
+
+const config = {
+    animate: true,
+    // arrowIcon: "V",
+    tabFocus: true
+};
 function Home_main() {
     return (
         <>
@@ -103,7 +144,7 @@ function Home_main() {
                     </Div>
                 </Div>
                 <Div Class="text-center mt-16">
-                    <Button Class="bg-orange-600 text-white py-2 px-4 hover:bg-slate-900  transition-all rounded-lg font-medium" Text="VIEW ALL CATEGORIES" />
+                    <Button Class="bg-orange-600 text-white hover:text-slate-900 py-2 px-4 hover:bg-white transition-all rounded-lg font-medium" Text="VIEW ALL CATEGORIES" />
                 </Div>
             </Section>
 
@@ -312,7 +353,24 @@ function Home_main() {
                 <Div Class="bg-[url('./images/offer02.jpg')] bg-no-repeat bg-cover bg-center py-28 pl-8">
                     <H2 Class="font-bold text-4xl text-white mb-4" Text="20% Offer Running - Join Today" />
                     <P Class="text-white mb-4 max-w-lg" Text="We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of your moment, so blinded by desire those who fail in their duty through weakness. These cases are perfectly simple and easy every pleasure is to be welcomed and every pain avoided." />
-                    <Button Class="bg-orange-500 text-white py-2 px-4 hover:bg-slate-900  transition-all rounded-lg font-medium" Text="FIND COURSES" />
+                    <Button Class="bg-orange-500 text-white  hover:text-slate-900 hover:bg-white py-2 px-4 transition-all rounded-lg font-medium" Text="FIND COURSES" />
+                </Div>
+            </Section>
+
+            {/* FAQ Section  */}
+            <Section Class="grid grid-cols-2 container mx-auto my-24">
+                <Div Class="px-10 pb-10 bg-gray-100">
+                    <H2 Class="text-3xl text-slate-900 font-medium py-10" Text="Frequently Asked Questions" />
+                    <Div>
+                        <Faq
+                            data={data}
+                            styles={styles}
+                            config={config}
+                        />
+                    </Div>
+                </Div>
+                <Div Class="relative">
+                        <Image Source="./images/faq.jpg" Class="absolute right-0 top-0 h-[450px]" />
                 </Div>
             </Section>
         </>
