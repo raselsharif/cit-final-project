@@ -67,7 +67,7 @@ function About() {
 
             {/* expert teacher section  */}
             <Div Class='container mx-auto py-28 bg-slate-100'>
-                <Div Class="">
+                <Div>
                     <H3 Class="font-medium text-center text-orange-500 mb-3" Text="TOP CATEGORIES" />
                     <H2 Class="font-bold text-center text-4xl text-slate-900 mb-10" Text="Popular Online Categories" />
                 </Div>
@@ -117,7 +117,38 @@ function About() {
                 </Div>
             </Div>
 
+            {/* STUDENT REVIEWS section  */}
 
+            <Div Class="container mx-auto my-24">
+                <Div>
+                    <H3 Class="font-medium text-center text-orange-500 mb-3" Text="TOP CATEGORIES" />
+                    <H2 Class="font-bold text-center text-4xl text-slate-900 mb-10" Text="Popular Online Categories" />
+                </Div>
+
+                <Div Class="grid grid-cols-2 gap-6">
+                    <Div Class="grid grid-cols-12 gap-5 py-12 px-9 bg-green-50">
+                        <Div Class="col-span-4">
+                            <Image Source="./images/student01.png" />
+                            <H4 Text="Saiko Najran" Class="font-bold text-xl mb-2 mt-4" />
+                            <P Text="Student" />
+                        </Div>
+                        <Div Class="col-span-8">
+                            <P Text="The charms of pleasure of the moment so blinded by desire that they cannot foresee the pain and trouble that are bound ensue and equal blame belongs to those who fail in their duty."/>
+                        </Div>
+                    </Div>
+                    <Div Class="grid grid-cols-12 gap-5 py-12 px-9 bg-green-50">
+                        <Div Class="col-span-4">
+                            <Image Source="./images/student01.png" />
+                            <H4 Text="Saiko Najran" Class="font-bold text-xl mb-2 mt-4" />
+                            <P Text="Student" />
+                        </Div>
+                        <Div Class="col-span-8">
+                            <P Text="The charms of pleasure of the moment so blinded by desire that they cannot foresee the pain and trouble that are bound ensue and equal blame belongs to those who fail in their duty."/>
+                        </Div>
+                    </Div>
+                </Div>
+
+            </Div>
 
         </Section>
     )
