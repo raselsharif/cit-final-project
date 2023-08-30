@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.faq-body{
+.faq-body {
     padding-left: 25px;
 }

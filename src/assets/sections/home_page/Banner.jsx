@@ -1,14 +1,14 @@
 import React from 'react'
-import Section from '../components/Section'
-import Div from '../components/Div'
-import H2 from '../components/H2'
-import H1 from '../components/H1'
-import Button from '../components/Button'
-import Image from '../components/Image'
-import H3 from '../components/H3'
+import Section from '../../components/Section'
+import Div from '../../components/Div'
+import H2 from '../../components/H2'
+import H1 from '../../components/H1'
+import Button from '../../components/Button'
+import Image from '../../components/Image'
+import H3 from '../../components/H3'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import Anchor from '../components/Anchor'
+import Anchor from '../../components/Anchor'
 
 
 function Banner() {

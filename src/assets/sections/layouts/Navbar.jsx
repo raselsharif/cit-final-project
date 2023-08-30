@@ -1,11 +1,11 @@
 import React from 'react'
-import Nav from '../components/Nav'
-import Div from '../components/Div'
-import Image from '../components/Image'
-import UL from '../components/UL'
-import LI from '../components/LI'
-import Anchor from '../components/Anchor'
-import Section from '../components/Section'
+import Nav from '../../components/Nav'
+import Div from '../../components/Div'
+import Image from '../../components/Image'
+import UL from '../../components/UL'
+import LI from '../../components/LI'
+import Anchor from '../../components/Anchor'
+import Section from '../../components/Section'
 
 function Navbar() {
   return (
@@ -40,13 +40,13 @@ function Navbar() {
             <LI Class="w-8 h-8 flex justify-center items-center">
             </LI>
             <LI Class="border rounded-full border-white w-8 h-8 flex justify-center items-center">
-              
+
             </LI>
             <LI Class="border rounded-full border-white w-8 h-8 flex justify-center items-center">
-             
+
             </LI>
             <LI Class="w-8 h-8 flex justify-center items-center">
-             
+
             </LI>
           </UL>
         </Nav>
