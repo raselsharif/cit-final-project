@@ -11,6 +11,7 @@ import Anchor from '../../components/Anchor'
 import Image from '../../components/Image'
 import P from '../../components/P'
 import { BsFillPlayFill } from 'react-icons/bs';
+import Span from '../../components/Span'
 
 function About() {
     return (
@@ -133,7 +134,7 @@ function About() {
                             <P Text="Student" />
                         </Div>
                         <Div Class="col-span-8">
-                            <P Text="The charms of pleasure of the moment so blinded by desire that they cannot foresee the pain and trouble that are bound ensue and equal blame belongs to those who fail in their duty."/>
+                            <P Text="The charms of pleasure of the moment so blinded by desire that they cannot foresee the pain and trouble that are bound ensue and equal blame belongs to those who fail in their duty." />
                         </Div>
                     </Div>
                     <Div Class="grid grid-cols-12 gap-5 py-12 px-9 bg-green-50">
@@ -143,11 +144,100 @@ function About() {
                             <P Text="Student" />
                         </Div>
                         <Div Class="col-span-8">
-                            <P Text="The charms of pleasure of the moment so blinded by desire that they cannot foresee the pain and trouble that are bound ensue and equal blame belongs to those who fail in their duty."/>
+                            <P Text="The charms of pleasure of the moment so blinded by desire that they cannot foresee the pain and trouble that are bound ensue and equal blame belongs to those who fail in their duty." />
                         </Div>
                     </Div>
                 </Div>
 
+            </Div>
+
+
+            {/* NEWS UPDATE section  */}
+            <Div Class="container mx-auto">
+                <Div>
+                    <H3 Class="font-medium text-center text-orange-500 mb-3" Text="TOP CATEGORIES" />
+                    <H2 Class="font-bold text-center text-4xl text-slate-900 mb-10" Text="Popular Online Categories" />
+                </Div>
+
+                <Div Class="grid grid-cols-2 gap-8">
+                    <Div>
+                        <Div Class="flex gap-3 mb-12 border border-gray-400">
+                            <Div>
+                                <Image Source="./images/event01.jpg" />
+                            </Div>
+                            <Div>
+                                <Div>
+                                    <Span Text="Admin" />
+                                    <Span Text="June 15,2019" />
+                                </Div>
+                                <P Class="text-xl" Text="Modern School The Lovely Valley Team Work" />
+                                <Anchor text="Read more">
+
+                                </Anchor>
+                            </Div>
+                            <Div></Div>
+                        </Div>
+                        <Div Class="flex flex-row-reverse gap-3 border border-gray-400">
+                            <Div>
+                                <Image Source="./images/event01.jpg" />
+                            </Div>
+                            <Div>
+                                <Div>
+                                    <Span Text="Admin" />
+                                    <Span Text="June 15,2019" />
+                                </Div>
+                                <P Class="text-xl" Text="Modern School The Lovely Valley Team Work" />
+                                <Anchor text="Read more">
+
+                                </Anchor>
+                            </Div>
+                            <Div></Div>
+                        </Div>
+                    </Div>
+
+                    <Div Class="flex flex-col gap-6">
+                        <Div Class="flex gap-4">
+                            <Div Class="bg-blue-50 px-8 py-5">
+                                <H4 Text="June" />
+                                <H3 Text="20" Class="text-4xl" />
+                            </Div>
+                            <Div>
+                                <P Text="Math & English" />
+                                <H3 Class="text-3xl" Text="Educational Technology and Mobile Accessories Learning" />
+                            </Div>
+                        </Div>
+                        <Div Class="flex gap-4">
+                            <Div Class="bg-blue-50 px-8 py-5">
+                                <H4 Text="June" />
+                                <H3 Text="20" Class="text-4xl" />
+                            </Div>
+                            <Div>
+                                <P Text="Math & English" />
+                                <H3 Class="text-3xl" Text="Educational Technology and Mobile Accessories Learning" />
+                            </Div>
+                        </Div>
+                        <Div Class="flex gap-4">
+                            <Div Class="bg-blue-50 px-8 py-5">
+                                <H4 Text="June" />
+                                <H3 Text="20" Class="text-4xl" />
+                            </Div>
+                            <Div>
+                                <P Text="Math & English" />
+                                <H3 Class="text-3xl" Text="Educational Technology and Mobile Accessories Learning" />
+                            </Div>
+                        </Div>
+                        <Div Class="flex gap-4">
+                            <Div Class="bg-blue-50 px-8 py-5">
+                                <H4 Text="June" />
+                                <H3 Text="20" Class="text-4xl" />
+                            </Div>
+                            <Div>
+                                <P Text="Math & English" />
+                                <H3 Class="text-3xl" Text="Educational Technology and Mobile Accessories Learning" />
+                            </Div>
+                        </Div>
+                    </Div>
+                </Div>
             </Div>
 
         </Section>
