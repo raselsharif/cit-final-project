@@ -9,8 +9,6 @@ import Image from '../components/Image'
 import Button from '../components/Button'
 import Anchor from '../components/Anchor'
 import Span from '../components/Span'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar, faUser, faReceipt, faCalendar, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import P from '../components/P'
 import Faq from "react-faq-component";
 
@@ -158,11 +156,6 @@ function Home_main() {
                             <Div Class="px-8 mt-8">
                                 <Div Class="flex gap-2">
                                     <UL Class="flex gap-2 text-orange-500">
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
                                     </UL>
                                     <Span Text="(1 Rating)" />
                                 </Div>
@@ -171,11 +164,9 @@ function Home_main() {
                                 </Anchor>
                                 <Div Class="flex justify-between pt-5 pb-8 border-t-2">
                                     <Div Class="flex gap-3 items-center">
-                                        <FontAwesomeIcon icon={faUser} />
                                         <Span Text="25 Students" />
                                     </Div>
                                     <Div Class="flex gap-3 items-center">
-                                        <FontAwesomeIcon icon={faReceipt} />
                                         <Span Text="6 Lessons" />
                                     </Div>
                                 </Div>
@@ -189,11 +180,6 @@ function Home_main() {
                             <Div Class="px-8 mt-8">
                                 <Div Class="flex gap-2">
                                     <UL Class="flex gap-2 text-orange-500">
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
                                     </UL>
                                     <Span Text="(1 Rating)" />
                                 </Div>
@@ -202,11 +188,9 @@ function Home_main() {
                                 </Anchor>
                                 <Div Class="flex justify-between pt-5 pb-8 border-t-2">
                                     <Div Class="flex gap-3 items-center">
-                                        <FontAwesomeIcon icon={faUser} />
                                         <Span Text="25 Students" />
                                     </Div>
                                     <Div Class="flex gap-3 items-center">
-                                        <FontAwesomeIcon icon={faReceipt} />
                                         <Span Text="6 Lessons" />
                                     </Div>
                                 </Div>
@@ -220,11 +204,6 @@ function Home_main() {
                             <Div Class="px-8 mt-8">
                                 <Div Class="flex gap-2">
                                     <UL Class="flex gap-2 text-orange-500">
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
                                     </UL>
                                     <Span Text="(1 Rating)" />
                                 </Div>
@@ -233,11 +212,9 @@ function Home_main() {
                                 </Anchor>
                                 <Div Class="flex justify-between pt-5 pb-8 border-t-2">
                                     <Div Class="flex gap-3 items-center">
-                                        <FontAwesomeIcon icon={faUser} />
                                         <Span Text="25 Students" />
                                     </Div>
                                     <Div Class="flex gap-3 items-center">
-                                        <FontAwesomeIcon icon={faReceipt} />
                                         <Span Text="6 Lessons" />
                                     </Div>
                                 </Div>
@@ -251,11 +228,6 @@ function Home_main() {
                             <Div Class="px-8 mt-8">
                                 <Div Class="flex gap-2">
                                     <UL Class="flex gap-2 text-orange-500">
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
                                     </UL>
                                     <Span Text="(1 Rating)" />
                                 </Div>
@@ -264,11 +236,9 @@ function Home_main() {
                                 </Anchor>
                                 <Div Class="flex justify-between pt-5 pb-8 border-t-2">
                                     <Div Class="flex gap-3 items-center">
-                                        <FontAwesomeIcon icon={faUser} />
                                         <Span Text="25 Students" />
                                     </Div>
                                     <Div Class="flex gap-3 items-center">
-                                        <FontAwesomeIcon icon={faReceipt} />
                                         <Span Text="6 Lessons" />
                                     </Div>
                                 </Div>
@@ -282,11 +252,6 @@ function Home_main() {
                             <Div Class="px-8 mt-8">
                                 <Div Class="flex gap-2">
                                     <UL Class="flex gap-2 text-orange-500">
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
                                     </UL>
                                     <Span Text="(1 Rating)" />
                                 </Div>
@@ -295,11 +260,9 @@ function Home_main() {
                                 </Anchor>
                                 <Div Class="flex justify-between pt-5 pb-8 border-t-2">
                                     <Div Class="flex gap-3 items-center">
-                                        <FontAwesomeIcon icon={faUser} />
                                         <Span Text="25 Students" />
                                     </Div>
                                     <Div Class="flex gap-3 items-center">
-                                        <FontAwesomeIcon icon={faReceipt} />
                                         <Span Text="6 Lessons" />
                                     </Div>
                                 </Div>
@@ -313,11 +276,6 @@ function Home_main() {
                             <Div Class="px-8 mt-8">
                                 <Div Class="flex gap-2">
                                     <UL Class="flex gap-2 text-orange-500">
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
-                                        <LI><FontAwesomeIcon icon={faStar} /></LI>
                                     </UL>
                                     <Span Text="(1 Rating)" />
                                 </Div>
@@ -326,11 +284,9 @@ function Home_main() {
                                 </Anchor>
                                 <Div Class="flex justify-between pt-5 pb-8 border-t-2">
                                     <Div Class="flex gap-3 items-center">
-                                        <FontAwesomeIcon icon={faUser} />
                                         <Span Text="25 Students" />
                                     </Div>
                                     <Div Class="flex gap-3 items-center">
-                                        <FontAwesomeIcon icon={faReceipt} />
                                         <Span Text="6 Lessons" />
                                     </Div>
                                 </Div>
@@ -414,11 +370,9 @@ function Home_main() {
                         <Div Class="px-8 mt-8">
                             <Div Class="flex justify-between pt-4">
                                 <Div Class="flex gap-3 items-center">
-                                    <FontAwesomeIcon icon={faUser} />
                                     <Span Text="Admin" />
                                 </Div>
                                 <Div Class="flex gap-3 items-center">
-                                    <FontAwesomeIcon icon={faCalendar} />
                                     <Span Text="Aug 22, 2023" />
                                 </Div>
                             </Div>
@@ -429,7 +383,6 @@ function Home_main() {
                             <Div Class="flex justify-between pt-5 pb-8 border-t-2 mt-5">
                                 <Div Class="flex gap-3 items-center">
                                     <Anchor Class="cursor-pointer ">
-                                        <FontAwesomeIcon icon={faReceipt} />
                                         <Span Text="Collage" Class="ml-2 hover:text-orange-500" />
                                     </Anchor>
                                 </Div>
@@ -437,7 +390,6 @@ function Home_main() {
 
                                     <Anchor Class="cursor-pointer hover:text-orange-500">
                                         Read More
-                                        <FontAwesomeIcon icon={faChevronRight} />
                                     </Anchor>
                                 </Div>
                             </Div>
@@ -450,11 +402,9 @@ function Home_main() {
                         <Div Class="px-8 mt-8">
                             <Div Class="flex justify-between pt-4">
                                 <Div Class="flex gap-3 items-center">
-                                    <FontAwesomeIcon icon={faUser} />
                                     <Span Text="Admin" />
                                 </Div>
                                 <Div Class="flex gap-3 items-center">
-                                    <FontAwesomeIcon icon={faCalendar} />
                                     <Span Text="Aug 22, 2023" />
                                 </Div>
                             </Div>
@@ -465,7 +415,6 @@ function Home_main() {
                             <Div Class="flex justify-between pt-5 pb-8 border-t-2 mt-5">
                                 <Div Class="flex gap-3 items-center">
                                     <Anchor Class="cursor-pointer ">
-                                        <FontAwesomeIcon icon={faReceipt} />
                                         <Span Text="Collage" Class="ml-2 hover:text-orange-500" />
                                     </Anchor>
                                 </Div>
@@ -473,7 +422,6 @@ function Home_main() {
 
                                     <Anchor Class="cursor-pointer hover:text-orange-500">
                                         Read More
-                                        <FontAwesomeIcon icon={faChevronRight} />
                                     </Anchor>
                                 </Div>
                             </Div>
@@ -486,11 +434,9 @@ function Home_main() {
                         <Div Class="px-8 mt-8">
                             <Div Class="flex justify-between pt-4">
                                 <Div Class="flex gap-3 items-center">
-                                    <FontAwesomeIcon icon={faUser} />
                                     <Span Text="Admin" />
                                 </Div>
                                 <Div Class="flex gap-3 items-center">
-                                    <FontAwesomeIcon icon={faCalendar} />
                                     <Span Text="Aug 22, 2023" />
                                 </Div>
                             </Div>
@@ -501,7 +447,6 @@ function Home_main() {
                             <Div Class="flex justify-between pt-5 pb-8 border-t-2 mt-5">
                                 <Div Class="flex gap-3 items-center">
                                     <Anchor Class="cursor-pointer ">
-                                        <FontAwesomeIcon icon={faReceipt} />
                                         <Span Text="Collage" Class="ml-2 hover:text-orange-500" />
                                     </Anchor>
                                 </Div>
@@ -509,7 +454,6 @@ function Home_main() {
 
                                     <Anchor Class="cursor-pointer hover:text-orange-500">
                                         Read More
-                                        <FontAwesomeIcon icon={faChevronRight} />
                                     </Anchor>
                                 </Div>
                             </Div>

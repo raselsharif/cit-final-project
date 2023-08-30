@@ -6,8 +6,6 @@ import UL from '../components/UL'
 import LI from '../components/LI'
 import Anchor from '../components/Anchor'
 import Section from '../components/Section'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMagnifyingGlass, faBriefcase, faUser, faBars } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() {
   return (
@@ -40,16 +38,15 @@ function Navbar() {
 
           <UL Class='flex gap-6 items-center'>
             <LI Class="w-8 h-8 flex justify-center items-center">
-              <FontAwesomeIcon icon={faMagnifyingGlass} />
             </LI>
             <LI Class="border rounded-full border-white w-8 h-8 flex justify-center items-center">
-              <FontAwesomeIcon icon={faBriefcase} />
+              
             </LI>
             <LI Class="border rounded-full border-white w-8 h-8 flex justify-center items-center">
-              <FontAwesomeIcon icon={faUser} />
+             
             </LI>
             <LI Class="w-8 h-8 flex justify-center items-center">
-              <FontAwesomeIcon icon={faBars} />
+             
             </LI>
           </UL>
         </Nav>

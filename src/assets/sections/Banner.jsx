@@ -9,8 +9,6 @@ import H3 from '../components/H3'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import Anchor from '../components/Anchor'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 
 function Banner() {
@@ -37,10 +35,8 @@ function Banner() {
             {/* carousel buttons  */}
             <Div Class="container mx-auto flex justify-between absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
                 <Anchor Class="bg-orange-500 text-white h-10 w-10 hover:bg-orange-600  transition-all rounded-full cursor-pointer font-medium flex items-center justify-center">
-                    <FontAwesomeIcon icon={faArrowLeft} />
                 </Anchor>
                 <Anchor Class="bg-orange-500 text-white h-10 w-10 hover:bg-orange-600  transition-all rounded-full cursor-pointer font-medium flex items-center justify-center">
-                    <FontAwesomeIcon icon={faArrowRight} />
                 </Anchor>
             </Div>
 
